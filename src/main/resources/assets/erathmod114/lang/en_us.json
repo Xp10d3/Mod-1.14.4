@@ -1,0 +1,24 @@
+{
+	"item.erathmod114.ruby": "Ruby",
+	"block.erathmod114.ruby_block": "Ruby Block",
+	"block.erathmod114.ruby_ore": "Ruby Ore",
+
+	"itemGroup.coreliaitems": "Corelia Items",
+
+	"item.erathmod114.shadow_sword": "Shadow Sword",
+	"item.erathmod114.flame_axe": "Flame Axe",
+	"item.erathmod114.shadow_pickaxe": "Shadow Pickaxe",
+	"item.erathmod114.solar_sword": "Solar Sword",
+	"item.erathmod114.energy_sword": "Energy Sword",
+	"item.erathmod114.sword_of_the_wind": "Sword of the Wind",
+	"item.erathmod114.water_bender": "Water Bender",	
+
+	"item.erathmod114.ice_helmet": "Ice Helmet",
+	"item.erathmod114.ice_chestplate": "Ice Chestplate",
+	"item.erathmod114.ice_leggings": "Ice Leggings",
+	"item.erathmod114.ice_boots": "Ice Boots",
+	"item.erathmod114.shadow_helmet": "Shadow Helmet",
+	"item.erathmod114.shadow_chestplate": "Shadow Chestplate",
+	"item.erathmod114.shadow_leggings": "Shadow Leggings",
+	"item.erathmod114.shadow_boots": "Shadow Boots"
+}

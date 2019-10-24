@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		" I ",
+		"LIL",
+		" S "
+	],
+
+	"key":
+	{
+		"I": { "item": "erathmod114:ruby" },
+		"L": { "item": "minecraft:obsidian" },
+		"S": { "item": "minecraft:blaze_rod" }
+	},
+
+	"result": { "item": "erathmod114:shadow_sword" }
+}

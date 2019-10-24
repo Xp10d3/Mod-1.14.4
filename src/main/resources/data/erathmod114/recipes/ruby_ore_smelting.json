@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:smelting",
+	"ingredient": {  "tag": "erathmod114:ruby_ore" },
+
+	"result": { "item": "erathmod114:ruby" },
+	"experience": 3.3,
+	"cookingtime": 400
+}

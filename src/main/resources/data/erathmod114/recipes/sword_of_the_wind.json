@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		" E ",
+		"RER",
+		" S "
+	],
+
+	"key":
+	{
+		"E": { "item": "minecraft:ender_eye" },
+		"R": { "item": "erathmod114:ruby" },
+		"S": { "item": "minecraft:blaze_rod" }
+	},
+
+	"result": { "item": "erathmod114:sword_of_the_wind" }
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		" I ",
+		"RIR",
+		" S "
+	],
+
+	"key":
+	{
+		"I": { "item": "minecraft:gold_ingot" },
+		"R": { "item": "erathmod114:ruby" },
+		"S": { "item": "minecraft:blaze_rod" }
+	},
+
+	"result": { "item": "erathmod114:energy_sword" }
+}

@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		"OOO",
+		" R ",
+		" R "
+	],
+
+	"key":
+	{
+		"O": { "item": "minecraft:obsidian" },
+		"R": { "item": "erathmod114:ruby" }
+	},
+
+	"result": { "item": "erathmod114:shadow_pickaxe" }
+}

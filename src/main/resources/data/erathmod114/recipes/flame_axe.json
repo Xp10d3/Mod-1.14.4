@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		"RRB",
+		"RS ",
+		" S "
+	],
+
+	"key":
+	{
+		"B": { "item": "minecraft:blaze_powder" },
+		"R": { "item": "erathmod114:ruby" },
+		"S": { "item": "minecraft:blaze_rod" }
+	},
+
+	"result": { "item": "erathmod114:flame_axe" }
+}

@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		"FSF",
+		"RSR",
+		" O "
+	],
+
+	"key":
+	{
+		"F": { "item": "minecraft:fire_charge" },
+		"R": { "item": "erathmod114:ruby" },
+		"S": { "item": "minecraft:blaze_rod" },
+		"O": { "item": "minecraft:obsidian" }
+	},
+
+	"result": { "item": "erathmod114:solar_sword" }
+}

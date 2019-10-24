@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		" P ",
+		"LPL",
+		" S "
+	],
+
+	"key":
+	{
+		"P": { "item": "minecraft:prismarine_crystals" },
+		"L": { "item": "erathmod114:ruby" },
+		"S": { "item": "minecraft:blaze_rod" }
+	},
+
+	"result": { "item": "erathmod114:water_bender" }
+}

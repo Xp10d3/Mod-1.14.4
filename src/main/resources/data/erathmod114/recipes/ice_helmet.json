@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		"   ",
+		"PPP",
+		"I I"
+	],
+
+	"key":
+	{
+		"P": { "item": "minecraft:packed_ice" },
+		"I": { "item": "minecraft:ice" }
+	},
+
+	"result": { "item": "erathmod114:ice_helmet" }
+}

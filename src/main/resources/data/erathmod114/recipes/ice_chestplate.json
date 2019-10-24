@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+
+	"pattern":
+	[
+		"P P",
+		"PIP",
+		"PIP"
+	],
+
+	"key":
+	{
+		"P": { "item": "minecraft:packed_ice" },
+		"I": { "item": "minecraft:ice" }
+	},
+
+	"result": { "item": "erathmod114:ice_chestplate" }
+}
