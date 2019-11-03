@@ -36,7 +36,7 @@ public class ErathMod114 {
 	}
 	
 	private void clientRegistries(final FMLClientSetupEvent event) {
-		ErathRenderRegistry.registerEntityRenders();
+		ErathRenderRegistry.registryEntityRenders();
 		LOGGER.info("clientRegistries method registered.");
 	}
 }

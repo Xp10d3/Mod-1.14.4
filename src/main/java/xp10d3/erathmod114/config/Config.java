@@ -28,11 +28,11 @@ public class Config
 	
 	public static void loadConfig(ForgeConfigSpec config, String path)
 	{
-		ErathMod114.logger.info("Loading config: " + path);
+		ErathMod114.LOGGER.info("Loading config: " + path);
 		final CommentedFileConfig file = CommentedFileConfig.builder(new File(path)).sync().autosave().writingMode(WritingMode.REPLACE).build();
-		ErathMod114.logger.info("Built config: " + path);
+		ErathMod114.LOGGER.info("Built config: " + path);
 		file.load();
-		ErathMod114.logger.info("Loaded config: " + path);
+		ErathMod114.LOGGER.info("Loaded config: " + path);
 		config.setConfig(file);
 	}
 }

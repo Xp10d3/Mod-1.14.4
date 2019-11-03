@@ -1,6 +1,8 @@
 package xp10d3.erathmod114;
 
-import java.util.logging.Logger;
+
+
+import org.apache.logging.log4j.Logger;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -26,9 +28,11 @@ import xp10d3.erathmod114.lists.ToolMaterialList;
 
 @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
 public class Registries {
+	
 	public static final ItemGroup CORELIA = CoreliaItemGroup.MISC;
-	public static final Logger logger = (Logger) ErathMod114.logger;
+	public static final Logger LOGGER = ErathMod114.LOGGER;
 	public static final String MODID = ErathMod114.modid;
+	
 		@SubscribeEvent
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			event.getRegistry().registerAll
@@ -58,7 +62,7 @@ public class Registries {
 			
 			Entities.registerEntitySpawnEggs(event);
 			
-			logger.info("Items registered.");
+			LOGGER.info("Items registered.");
 		}
 		
 		@SubscribeEvent
@@ -67,7 +71,7 @@ public class Registries {
 					BlockList.ruby_block = new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(5.0f, 7.0f).lightValue(1).sound(SoundType.METAL)).setRegistryName(location("ruby_block")),
 					BlockList.ruby_ore = new Block(Block.Properties.create(Material.ROCK).hardnessAndResistance(2.0f, 5.0f).lightValue(1).sound(SoundType.METAL)).setRegistryName(location("ruby_ore"))
 			);
-			logger.info("Blocks registered.");
+			LOGGER.info("Blocks registered.");
 		}
 		
 		@SubscribeEvent
